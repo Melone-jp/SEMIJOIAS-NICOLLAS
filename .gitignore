@@ -1,0 +1,21 @@
+# Dependências
+vendor/
+node_modules/
+
+# Ambiente local
+.env
+.env.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Banco local opcional (se não quiser versionar)
+# semijoiasmr.sql
