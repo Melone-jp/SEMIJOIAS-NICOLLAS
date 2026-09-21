@@ -1,6 +1,6 @@
-# SEMIJOIAS NICOLLAS
+# SEMIJOIAS
 
-Dashboard administrativo e analítico para o negócio de semijoias, desenvolvido em PHP com Bootstrap e JavaScript.
+Dashboard administrativo e analítico para o negócio de semijoias, desenvolvido em PHP com Bootstrap e JavaScript, feito por IA e conectado por usuário. 
 
 ## Funcionalidades
 
@@ -13,21 +13,15 @@ Dashboard administrativo e analítico para o negócio de semijoias, desenvolvido
 
 ## Credenciais de acesso
 
-### Administrador
+### Login do ADM
 - Usuário: admin
 - Senha: admin123
 
-### Usuário comum
+### Login randola
 - Usuário: usuario
 - Senha: usuario123
 
-## Requisitos
-
-- XAMPP com Apache e MySQL
-- PHP 8+
-- Browser moderno
-
-## Execução local
+## como eu executo?
 
 1. Inicie o Apache e o MySQL no XAMPP.
 2. Mantenha a pasta do projeto em `C:\xampp\htdocs\USUARIO`.
@@ -41,19 +35,17 @@ cd C:\xampp\htdocs\USUARIO
 C:\xampp\php\php.exe -S localhost:8000
 ```
 
-## Estrutura principal
+## arquivos
 
-- `index.php` — dashboard principal
-- `login.php` — tela de login
-- `config.php` — configuração do banco e autenticação
-- `pedidos.php` — módulo de pedidos
-- `comissoes.php` — módulo de comissões
-- `caixa.php` — módulo de caixa
-- `usuarios.php` — módulo de usuários
-- `assets/css/style.css` — estilos do painel
-- `assets/js/app.js` — scripts e gráficos
-- `semijoiasmr.sql` — dump do banco de dados
+- `index.php` - dashboard principal
+- `login.php` - tela de login
+- `config.php` - configuração do banco e autenticação
+- `pedidos.php` - módulo de pedidos
+- `comissoes.php` - módulo de comissões
+- `caixa.php` - módulo de caixa
+- `usuarios.php` - módulo de usuários
+- `assets/css/style.css` - estilos do painel
+- `assets/js/app.js` - scripts e gráficos
+- `semijoiasmr.sql` - dump do banco de dados
 
-## Observação
-
-Este projeto foi criado para funcionar em ambiente local com MySQL do XAMPP e pode ser adaptado para deploy em servidor web real.
+- `CONSULTASDB NICOLLAS`- todas as consultas do Banco de Dados MySQL
