@@ -30,14 +30,14 @@ Dashboard administrativo e analítico para o negócio de semijoias, desenvolvido
 ## Execução local
 
 1. Inicie o Apache e o MySQL no XAMPP.
-2. Mantenha a pasta do projeto em `C:\xampp\htdocs\NICOLLAS`.
+2. Mantenha a pasta do projeto em `C:\xampp\htdocs\USUARIO`.
 3. Acesse:
    - http://localhost:8000/login.php
 
 Ou execute localmente:
 
 ```bash
-cd C:\xampp\htdocs\NICOLLAS
+cd C:\xampp\htdocs\USUARIO
 C:\xampp\php\php.exe -S localhost:8000
 ```
 
